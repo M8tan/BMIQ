@@ -100,7 +100,7 @@ fun BmiCalculatorApp() {
                 fontWeight = FontWeight.Bold
             )
             Text(
-                text = "Category: $category",
+                text = "Which is: $category",
                 fontSize = 20.sp,
                 color = when (category) {
                     "Underweight" -> MaterialTheme.colorScheme.secondary
